@@ -1,0 +1,1 @@
+import '@material/web/focus/focus-ring.js';
