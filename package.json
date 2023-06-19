@@ -3,8 +3,6 @@
     "@maicol07/material-web-additions": "^1.2.15",
     "@rollup/plugin-node-resolve": "^15.1.0",
     "@rollup/plugin-terser": "^0.4.3",
-    "babel": "^6.23.0",
-    "chalk": "^5.2.0",
     "commander": "^10.0.1",
     "rollup": "^3.25.0"
   },
@@ -15,7 +13,7 @@
     "generateMW": "node ./generate.js",
     "generateMWA": "node ./generate.js --additions",
     "bundle": "node ./bundle.js",
-    "bundle-minified": "node ./bundle.js --minify",
+    "bundle-minified": "echo Please don't use this, it's broken, if you still wish node ./bundle.js --minify",
     "bundle-one-file": "node ./bundle.js --one-file",
     "bundle-all-type": "node ./bundle.js --minify; node ./bundle.js; node ./bundle.js --one-file",
     "clean": "rm -rf toBundle/* bundled/*"
