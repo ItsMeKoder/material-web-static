@@ -1,1 +1,0 @@
-import '@material/web/labs/navigationbar/navigation-bar.js';

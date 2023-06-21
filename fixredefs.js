@@ -35,15 +35,7 @@ fs.readdir(folder, (err, files) => {
                     console.error(err);
                     return;
                 }
-                console.log('//' + filePath);
                 const result = data.replace(sStr1, rStr1).replace(sStr2, rStr2).replace(sStr3, rStr3).replace(sStr4, rStr4).replace(sStr5, rStr5).replace(sStr6, rStr6).replace(sStr7, rStr7);
-                // if (String(filePath).includes("badge")){
-                //     result=data.replace(sStr3, rStr3)
-                // }
-                // else {
-                //     result=data
-                // }
-                console.log(result)
                 fs.writeFile(filePath, result, 'utf8', err => {
                     if (err) {
                         console.error(err);
@@ -54,3 +46,4 @@ fs.readdir(folder, (err, files) => {
         }
     });
 });
+console.log("Done!")

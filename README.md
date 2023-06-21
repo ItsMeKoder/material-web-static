@@ -1,13 +1,21 @@
 # Material Web Bundler
 ## Introduction
-This is a bundler for [Material Web](https://github.com/material-components/material-web) components. It bundles the components into static files, which can be used in a browser.
+This is a bundler for [Material Web](https://github.com/material-components/material-web)(and [Material Web Additions](https://github.com/maicol07/material-web-additions)) components. It bundles the components into static files, which can be used in a browser.
 
 # Dont use minify, it'll try to redefine the same custom element, which will cause an error.
 ## Usage
+### Per component
 ```html
-<script src="https://m3.stiblook.rocks/bundled/{component}.js>
+<script src="https://m3.stiblook.rocks/bundled/{component}.js"></script>
 ```
-
+### All Material Web Components
+```html
+<script> src="https://m3.stiblook.rocks/bundled/material.js"></script>
+```
+### All Material Web Additions Components
+```html
+<script> src="https://m3.stiblook.rocks/bundled/material-additions.js"></script>
+```
 > The variants of components are bundled to the same file.
 > For example, `md-filled-button`, `md-outlined-button` are bundled to `button.js`.
 ## Components List

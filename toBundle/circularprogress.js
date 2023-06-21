@@ -1,1 +1,0 @@
-import '@material/web/circularprogress/circular-progress.js';

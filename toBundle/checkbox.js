@@ -1,1 +1,0 @@
-import '@material/web/checkbox/checkbox.js';

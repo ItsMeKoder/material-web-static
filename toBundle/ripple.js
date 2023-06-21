@@ -1,1 +1,0 @@
-import '@material/web/ripple/ripple.js';
