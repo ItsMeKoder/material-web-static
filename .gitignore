@@ -4,3 +4,4 @@ node_modules
 material-web
 table.js
 package-lock.json
+.DS_Store

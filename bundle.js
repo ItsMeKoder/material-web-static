@@ -68,7 +68,7 @@ function bundleMWAOneFile() {
     console.log(`Bundling and minifying ${inputPath}` + `/material-additions.js to ` + outputPath + `/material-additions.min.js`);
   }
   else {
-    bundlePath = path.join(outputPath, "material.js");
+    bundlePath = path.join(outputPath, "material-additions.js");
     console.log(`Bundling ${inputPath}` + `/material-additions.js to ` + outputPath + `/material-additions.js`);
   }
   async function bundleFile() {
