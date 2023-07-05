@@ -1,4 +1,6 @@
 # Material Web Bundler
+# Don't use this, import maps are available! Use `unpkg`.
+
 ## Introduction
 This is a bundler for [Material Web](https://github.com/material-components/material-web)(and [Material Web Additions](https://github.com/maicol07/material-web-additions)) components. It bundles the components into static files, which can be used in a browser.
 
